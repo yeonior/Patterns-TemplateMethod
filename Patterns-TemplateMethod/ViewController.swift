@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let fileReader = FileReader()
+        fileReader.readData()
+        
+        let bufferReader = BufferReader()
+        bufferReader.readData()
+        
+        let dataBaseReader = DataBaseReader()
+        dataBaseReader.readData()
     }
-
-
 }
 

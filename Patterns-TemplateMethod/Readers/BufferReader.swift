@@ -13,6 +13,6 @@ class BufferReader: DataReadingAlgorithm {
     }
     
     override func closeResource() {
-        print("Close buffer")
+        print("Close buffer\n")
     }
 }

@@ -13,6 +13,6 @@ class FileReader: DataReadingAlgorithm {
     }
     
     override func closeResource() {
-        print("Close file")
+        print("Close file\n")
     }
 }

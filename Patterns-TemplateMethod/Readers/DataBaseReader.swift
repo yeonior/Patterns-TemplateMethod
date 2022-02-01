@@ -13,6 +13,6 @@ class DataBaseReader: DataReadingAlgorithm {
     }
     
     override func closeResource() {
-        print("Close data base")
+        print("Close data base\n")
     }
 }
